@@ -1,0 +1,3 @@
+DB_DSN="mysql:dbname=optimy;host=localhost"
+DB_UNAME=root
+DB_PASS=
