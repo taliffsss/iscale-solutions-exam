@@ -38,9 +38,9 @@ composer install
 
 DB_DSN=<your_database_dsn>
 
-DB_USER=<your_database_username>
+DB_UNAME=<your_database_username>
 
-DB_PASSWORD=<your_database_password>
+DB_PASS=<your_database_password>
 
 ```
 
