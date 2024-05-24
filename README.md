@@ -6,41 +6,54 @@ This is a PHP application built for testing purposes. It utilizes the Slim frame
 
 1. Clone the repository to your local machine:
 
-   ```bash
-   git clone <repository_url>
-   ```
+```bash
+
+git clone https://github.com/taliffsss/iscale-solutions-exam.git
+
+```
 
 2. Navigate to the project directory:
 
-   ```bash
-   cd PHP_Test_Optimy
-   ```
+```bash
+
+cd iscale-solutions-exam
+
+```
 
 3. Install dependencies using Composer:
 
-   ```bash
-   composer install
-   ```
+```bash
+
+composer install
+
+```
 
 4. Set up environment variables:
 
-   - Create a `.env` file in the project root.
-   - Add the following environment variables to the `.env` file:
+- Create a `.env` file in the project root.
 
-     ```plaintext
-     DB_DSN=<your_database_dsn>
-     DB_USER=<your_database_username>
-     DB_PASSWORD=<your_database_password>
-     ```
+- Add the following environment variables to the `.env` file:
 
-   Replace `<your_database_dsn>`, `<your_database_username>`, and `<your_database_password>` with your actual database connection details.
+```plaintext
+
+DB_DSN=<your_database_dsn>
+
+DB_USER=<your_database_username>
+
+DB_PASSWORD=<your_database_password>
+
+```
+
+Replace `<your_database_dsn>`, `<your_database_username>`, and `<your_database_password>` with your actual database connection details.
 
 ## Running Unit Tests
 
 To run the unit tests for this project, execute the following command in the project root directory:
 
 ```bash
+
 vendor/bin/phpunit
+
 ```
 
 ## Also you can access it using routes just uncomment the following line in index.php
@@ -49,15 +62,18 @@ vendor/bin/phpunit
 
 1. Start the PHP built-in server:
 
-   ```bash
-   php -S localhost:8000 -t public
-   ```
+```bash
+
+php -S localhost:8000 -t public
+
+```
 
 2. Access the application in your web browser at `http://localhost:8000`.
 
 ## Routes
 
 - `/news`: List all news items.
+
 - `/comments`: List all comments.
 
 ## Contributing
